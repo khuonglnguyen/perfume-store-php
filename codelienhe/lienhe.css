@@ -1,0 +1,268 @@
+h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    margin-top: -400px;
+    margin-left: 580px;
+    font-size: 40px;
+}
+#icon_place1 ul{
+    margin: 0px;
+    margin-left: 365px;
+}
+#icon_place1 ul li {
+    list-style: none;
+    float: left;
+   padding: 0px 0px 0px 320px;
+   
+}
+#icon_place1 ul li a{
+	color: red;
+	font-size: 20px;
+}
+#icon_place2 ul{
+    margin: 0px;
+    margin-left: 365px;
+}
+#icon_place2 ul li {
+    list-style: none;
+    float: left;
+   padding: 0px 0px 0px 230px;   
+}
+#icon_place2 ul li a{
+  color: red;
+  font-size: 20px;
+}
+#icon_place3 ul{
+    margin: 0px;
+    margin-left: 365px;
+}
+#icon_place3 ul li {
+    list-style: none;
+    float: left;
+   padding: 0px 27px 0px 210px; 
+}
+#icon_place3 ul li a{
+  color: red;
+  font-size: 20px;
+}
+#diachi1 ul{
+    margin: 0px;
+    margin-left: 300px;
+    margin-top: 50px;
+    font-size: 20px;
+
+}
+#diachi1 ul li {
+    list-style: none;
+    float: left;
+   padding: 0px 0px 0px 280px ;
+  
+}
+#diachi1 ul li a{
+	text-decoration: none;
+   font-family: 'Barlow Condensed', sans-serif;
+    color: black;
+    
+}
+#diachi2 ul{
+    margin: 0px;
+    margin-left: 300px;
+    margin-top: 50px;
+    font-size: 20px;
+
+}
+#diachi2 ul li {
+    list-style: none;
+    float: left;
+   padding: 0px 0px 0px 30px ;
+  
+}
+#diachi2 ul li a{
+	text-decoration: none;
+   font-family: 'Barlow Condensed', sans-serif;
+    color: black; 
+}
+#diachi3 ul{
+    margin: 0px;
+    margin-left: 300px;
+    margin-top: 50px;
+    font-size: 20px;
+
+}
+#diachi3 ul li {
+    list-style: none;
+    float: left;
+   padding: 0px 0px 0px 30px;
+  
+}
+#diachi3 ul li a{
+	text-decoration: none;
+   font-family: 'Barlow Condensed', sans-serif;
+    color: black;   
+}
+#sdt1 ul{
+    margin: 0px;
+    margin-left: 350px;
+}
+#sdt1 ul li {
+    list-style: none;
+    float: left;
+   padding: 0px 0px 0px 300px;
+   margin-top: 5px;
+   
+}
+#sdt1 ul li a{
+	text-decoration: none;
+	color: red;
+	font-size: 20px;
+	font-family: 'Barlow Condensed', sans-serif;
+}
+#sdt2 ul{
+    margin: 0px;
+    margin-left: 350px;
+}
+#sdt2 ul li {
+    list-style: none;
+    float: left;
+   padding: 0px 0px 0px 170px;
+   margin-top: 5px;
+   
+}
+#sdt2 ul li a{
+	text-decoration: none;
+	color: red;
+	font-size: 20px;
+	font-family: 'Barlow Condensed', sans-serif;
+}
+#sdt3 ul{
+    margin: 0px;
+    margin-left: 350px;
+}
+#sdt3 ul li {
+    list-style: none;
+    float: left;
+   padding: 0px 0px 0px 140px;
+   margin-top: 5px;
+}
+#sdt3 ul li a{
+	text-decoration: none;
+	color: red;
+	font-size: 20px;
+	font-family: 'Barlow Condensed', sans-serif;
+}
+hr {
+    background: black;
+    border: 0;
+    height: 2px;
+    margin-right: 200px;
+    margin-top: 140px;
+    width: 300px;
+}
+#emai ul{
+    margin: 0px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+#email ul li {
+    list-style: none;
+    float: left;
+   margin-left: 870px;
+}
+#email ul li a{
+	text-decoration: none;
+	color: red;
+	font-size: 20px;
+	font-family: 'Barlow Condensed', sans-serif;
+}
+#email ul li a:hover{
+  color: lime;
+  
+}
+#fb ul{
+    margin: 0px;
+    margin-left: 470px;
+    margin-bottom: 60px;
+}
+#fb ul li {
+    list-style: none;
+    float: left;
+   padding: 0px 27px 0px 325px;
+}
+#fb ul li a{
+	color: black;
+	font-size: 30px;
+}
+#fb ul li a:hover{
+  color: lime;
+  
+}
+#twiter ul{
+    margin: 0px;
+    margin-bottom: 60px;
+}
+#twiter ul li {
+    list-style: none;
+    float: left;
+   padding: 0px 40px;
+}
+#twiter ul li a{
+	color: black;
+	font-size: 30px;
+}
+#twiter ul li a:hover{
+  color: lime;
+  
+}
+#gg ul{
+    margin: 0px;
+    margin-bottom: 60px;
+}
+#gg ul li {
+    list-style: none;
+    float: left;
+   padding: 0px 30px;
+}
+#gg ul li a{
+	color: black;
+	font-size: 30px;
+}
+#gg ul li a:hover{
+  color: lime;
+  
+}
+#inst ul{
+    margin: 0px;
+    margin-bottom: 60px;
+}
+#inst ul li {
+    list-style: none;
+    float: left;
+   padding: 0px 30px;
+}
+#inst ul li a{
+	color: black;
+	font-size: 30px;
+}
+#inst ul li a:hover{
+  color: lime;
+  
+}
+#thongtin ul{
+    margin: 0px;
+    margin-left: 460px;
+    margin-top: 50px;
+    font-size: 20px;
+
+}
+#thongtin ul li {
+    list-style: none;
+    float: left;
+   padding: 20px 210px;
+   margin-left: 150px;
+  
+}
+#thongtin ul li a{
+	text-decoration: none;
+   font-family: 'Barlow Condensed', sans-serif;
+    color: black;   
+}

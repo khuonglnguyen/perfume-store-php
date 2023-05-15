@@ -1,0 +1,101 @@
+
+.container-sm{
+    background: rgb(238, 245, 255);
+}
+
+
+._1G9Cv7 {
+    height: 3px;
+    width: 100%;
+    background-position-x: -30px;
+    background-size: 116px 3px;
+    background-image: repeating-linear-gradient(
+45deg
+,#6fa6d6,#6fa6d6 33px,transparent 0,transparent 41px,#f18d9b 0,#f18d9b 74px,transparent 0,transparent 82px);
+}
+.Hang1{
+    font-size: 1.125rem;
+    color: #ee4d2d;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -moz-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    font-weight: bold;
+    height: 50px ;
+}
+.fa-map-marker-alt{
+    color: red;
+}
+.DC{
+    font-weight: 600;
+    font-size: larger ;
+    text-align: center;
+    width: 1100px;
+    margin-left: 50px !important;
+}
+.TD{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.SP{
+    font-weight: 600;
+    font-size: larger ;
+    
+}
+._2kNe1K {
+
+    padding-bottom: 10px;
+    padding-top: 10px;
+    min-width: 0;
+    min-height: 0;
+    border: 1px dashed rgba(0, 0, 0, 0.699);
+    
+    width: 1318px;
+    margin-left: -10px;
+}
+.GG{
+
+    padding-bottom: 0px;
+    padding-top: 0px;
+    min-width: 0;
+    min-height: 0;
+    border-right: 1px dashed rgba(0, 0, 0, 0.699);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+h6{
+    
+    font-weight: 700 !important;
+    font-family: 'Paytone One', sans-serif;
+    top: 1%;
+    
+}
+.TT{
+    font-weight: 700 !important;
+    border: none;
+    background: #ee4d2d;
+    color: white;
+    height: 50px;
+}
+.TDC{
+    border: 1px solid black ;
+}
+.fa-dot-circle{
+    color: red !important;
+}
+.btn-primary{
+    border-radius: black solid 0% !important ;
+}
+.them {
+    margin-left: 1040px !important;
+    border-radius: 10px  !important;
+    border: rgb(0, 0, 0) solid 1px;
+    background: rgba(0, 255, 0, 0.5);
+    margin-top: 5px;
+    text-align: center;
+}

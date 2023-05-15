@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Saira:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Teko:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.fd1 {
+    height: 300px;
+    width: 25%;
+    border-right: black solid 1px;
+}
+
+.fd2 {
+    width: 25%;
+    border-right: black solid 1px;
+}
+
+.fd3 {
+    border-right: black solid 1px;
+    width: 25%;
+}
+
+.icon ul li {
+    list-style: none;
+    float: left;
+}
+
+.icon ul li a {
+    font-size: 40px !important;
+    padding-right: 15px;
+}
+
+.tw {
+    color: cyan;
+}
+
+.gg {
+    color: rgb(248, 72, 72);
+}
+
+.fb {
+    color: rgb(64, 12, 187);
+}
+
+.ins {
+    color: rgb(223, 14, 14);
+}
+
+.logo {
+    padding-top: 20px;
+    margin-left: 57px;
+}
+
+#tieude {
+    font-size: 20px;
+    padding-left: 15px;
+    text-align: left;
+    color: #8f8f8f;
+}
+
+.icon h3 {
+    padding-left: 15px;
+}
+
+.content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.content h2 {
+    color: #243c4f;
+    margin-bottom: 40px;
+}
+
+.content .form-control {
+    height: 40px;
+    border-color: #ffffff;
+    border-radius: 0;
+}
+
+.content.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #243c4f;
+}
+
+.content .btn {
+    min-height: 40px;
+    border-radius: 0;
+    background: #243c4f;
+    color: #fff;
+    font-weight: 500;
+}
+
+.tieude2 {
+    /* text-align: center; */
+    padding-top: 20px;
+    color: white;
+    padding-left: 38px;
+}
+
+.fooder {
+    background: black;
+    height: 480px;
+    position: absolute;
+    z-index: 1;
+}
+
+.fd2 ul li a {
+    color: #8f8f8f
+}
+
+.fd3 ul li a {
+    color: #8f8f8f;
+}
+
+.chinhanh {
+    color: #8f8f8f;
+}
+
+.fd1 h3 {
+    color: white;
+}
+
+#ngang {
+    height: 0.1px;
+    background-color: #999999;
+    margin-top: 15px;
+    width: 900px;
+    margin-left: 170px;
+}
+
+.end {
+    text-align: center;
+    color: white;
+}
+
+#chungnhan {
+    width: 100px;
+    padding-left: 10px;
+}
+
+.thuonghieu .row .th1 {
+    text-align: center;
+    font-family: 'Cookie', cursive;
+    font-size: 28px;
+}
+
+.thuonghieu .row .th2 {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 28px;
+}
+
+.thuonghieu .row .th3 {
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 24px;
+}
+
+.thuonghieu .row .th4 {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+}
+
+.thuonghieu .row .th5 {
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+}
+
+.thuonghieu .row .th6 {
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+}

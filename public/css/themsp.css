@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Saira:wght@300&display=swap');
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    margin-bottom: 40px
+}
+
+label {
+    color: rgb(0, 0, 0)
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 80%;
+    margin-left: 3px;
+    border-radius: 0px;
+    background-color: black;
+}
+
+.btn-send:hover {
+    background-color: gray;
+    color: black;
+}
+
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px
+}
+
+.card {
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+input {
+    width: 240px;
+    box-sizing: border-box;
+    border: 1px solid rgb(73, 73, 73) !important;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    padding: 12px 14px;
+    transition: width 0.4s ease-in-out;
+}
+
+.huong {
+    width: 150px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: width 0.4s ease-in-out;
+}

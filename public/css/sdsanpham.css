@@ -1,0 +1,751 @@
+            /* Slide sản phẩm */
+            
+            @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Saira:wght@300&display=swap');
+            .sdproduct {
+                padding-top: 20px;
+            }
+            
+            #slider-text {
+                padding-top: 40px;
+                display: block;
+            }
+            
+            #slider-text .col-md-6 {
+                overflow: hidden;
+            }
+            
+            #slider-text h2 {
+                font-family: 'Josefin Sans', sans-serif;
+                font-weight: 380;
+                font-size: 30px;
+                letter-spacing: 3px;
+                margin: 30px auto;
+                padding-left: 40px;
+            }
+            
+            #slider-text h2::after {
+                border-top: 2px solid #c7c7c7;
+                content: "";
+                position: absolute;
+                bottom: 35px;
+                width: 100%;
+            }
+            
+            #itemslider h4 {
+                font-family: 'Josefin Sans', sans-serif;
+                font-weight: 400;
+                font-size: 12px;
+                margin: 10px auto 3px;
+            }
+            
+            #itemslider h5 {
+                font-family: 'Josefin Sans', sans-serif;
+                font-weight: bold;
+                font-size: 12px;
+                margin: 3px auto 2px;
+            }
+            
+            #itemslider h6 {
+                font-family: 'Josefin Sans', sans-serif;
+                font-weight: 300;
+                ;
+                font-size: 10px;
+                margin: 2px auto 5px;
+            }
+            
+            .badge {
+                background: black;
+                position: absolute;
+                height: 40px;
+                width: 60px;
+                line-height: 31px;
+                font-family: 'Josefin Sans', sans-serif;
+                font-weight: 300;
+                font-size: 14px;
+                box-shadow: 0 0 0 1px black;
+                top: 6px;
+                right: 11%;
+                background-color: black !important;
+                padding: 13px 13px !important;
+                border-radius: 0px !important;
+            }
+            
+            #slider-control img {
+                padding-top: 60%;
+                margin: 0 auto;
+            }
+            
+            @media screen and (max-width: 992px) {
+                #slider-control img {
+                    padding-top: 70px;
+                    margin: 0 auto;
+                }
+            }
+            
+            .carousel-showmanymoveone .carousel-control {
+                width: 4%;
+                background-image: none;
+            }
+            
+            .carousel-showmanymoveone .carousel-control.left {
+                margin-left: 5px;
+            }
+            
+            .carousel-showmanymoveone .carousel-control.right {
+                margin-right: 5px;
+            }
+            
+            .carousel-showmanymoveone .cloneditem-1,
+            .carousel-showmanymoveone .cloneditem-2,
+            .carousel-showmanymoveone .cloneditem-3,
+            .carousel-showmanymoveone .cloneditem-4,
+            .carousel-showmanymoveone .cloneditem-5 {
+                display: none;
+            }
+            
+            @media all and (min-width: 768px) {
+                .carousel-showmanymoveone .carousel-inner>.active.left,
+                .carousel-showmanymoveone .carousel-inner>.prev {
+                    left: -50%;
+                }
+                .carousel-showmanymoveone .carousel-inner>.active.right,
+                .carousel-showmanymoveone .carousel-inner>.next {
+                    left: 50%;
+                }
+                .carousel-showmanymoveone .carousel-inner>.left,
+                .carousel-showmanymoveone .carousel-inner>.prev.right,
+                .carousel-showmanymoveone .carousel-inner>.active {
+                    left: 0;
+                }
+                .carousel-showmanymoveone .carousel-inner .cloneditem-1 {
+                    display: block;
+                }
+            }
+            
+            @media all and (min-width: 768px) and (transform-3d),
+            all and (min-width: 768px) and (-webkit-transform-3d) {
+                .carousel-showmanymoveone .carousel-inner>.item.active.right,
+                .carousel-showmanymoveone .carousel-inner>.item.next {
+                    -webkit-transform: translate3d(50%, 0, 0);
+                    transform: translate3d(50%, 0, 0);
+                    left: 0;
+                }
+                .carousel-showmanymoveone .carousel-inner>.item.active.left,
+                .carousel-showmanymoveone .carousel-inner>.item.prev {
+                    -webkit-transform: translate3d(-50%, 0, 0);
+                    transform: translate3d(-50%, 0, 0);
+                    left: 0;
+                }
+                .carousel-showmanymoveone .carousel-inner>.item.left,
+                .carousel-showmanymoveone .carousel-inner>.item.prev.right,
+                .carousel-showmanymoveone .carousel-inner>.item.active {
+                    -webkit-transform: translate3d(0, 0, 0);
+                    transform: translate3d(0, 0, 0);
+                    left: 0;
+                }
+            }
+            
+            @media all and (min-width: 992px) {
+                .carousel-showmanymoveone .carousel-inner>.active.left,
+                .carousel-showmanymoveone .carousel-inner>.prev {
+                    left: -16.666%;
+                }
+                .carousel-showmanymoveone .carousel-inner>.active.right,
+                .carousel-showmanymoveone .carousel-inner>.next {
+                    left: 16.666%;
+                }
+                .carousel-showmanymoveone .carousel-inner>.left,
+                .carousel-showmanymoveone .carousel-inner>.prev.right,
+                .carousel-showmanymoveone .carousel-inner>.active {
+                    left: 0;
+                }
+                .carousel-showmanymoveone .carousel-inner .cloneditem-2,
+                .carousel-showmanymoveone .carousel-inner .cloneditem-3,
+                .carousel-showmanymoveone .carousel-inner .cloneditem-4,
+                .carousel-showmanymoveone .carousel-inner .cloneditem-5,
+                .carousel-showmanymoveone .carousel-inner .cloneditem-6 {
+                    display: block;
+                }
+            }
+            
+            @media all and (min-width: 992px) and (transform-3d),
+            all and (min-width: 992px) and (-webkit-transform-3d) {
+                .carousel-showmanymoveone .carousel-inner>.item.active.right,
+                .carousel-showmanymoveone .carousel-inner>.item.next {
+                    -webkit-transform: translate3d(16.666%, 0, 0);
+                    transform: translate3d(16.666%, 0, 0);
+                    left: 0;
+                }
+                .carousel-showmanymoveone .carousel-inner>.item.active.left,
+                .carousel-showmanymoveone .carousel-inner>.item.prev {
+                    -webkit-transform: translate3d(-16.666%, 0, 0);
+                    transform: translate3d(-16.666%, 0, 0);
+                    left: 0;
+                }
+                .carousel-showmanymoveone .carousel-inner>.item.left,
+                .carousel-showmanymoveone .carousel-inner>.item.prev.right,
+                .carousel-showmanymoveone .carousel-inner>.item.active {
+                    -webkit-transform: translate3d(0, 0, 0);
+                    transform: translate3d(0, 0, 0);
+                    left: 0;
+                }
+            }
+            
+            .textct {
+                text-decoration-line: line-through;
+                color: black;
+            }
+            
+            div#nz-div {
+                border-bottom: 2px solid black;
+                margin-bottom: 20px;
+                display: block;
+                padding-top: 10px;
+            }
+            
+            #nz-div h3.tde {
+                margin: 0;
+                font-size: 16px;
+                line-height: 20px;
+                display: inline-block;
+                text-transform: uppercase;
+            }
+            
+            #nz-div h3.tde :after {
+                content: "";
+                width: 0;
+                height: 0;
+                border-top: 40px solid transparent;
+                border-left: 20px solid black;
+                border-bottom: 0px solid transparent;
+                border-right: 0 solid transparent;
+                position: absolute;
+                top: 0px;
+                right: -20px;
+            }
+            
+            #nz-div h3.tde span {
+                background: black;
+                padding: 10px 20px 8px 20px;
+                color: white;
+                position: relative;
+                display: inline-block;
+                margin: 0;
+            }
+            /* --------------------------------------------------------------- */
+            /* Đây là banner của phần khuyến mãi------------------------------- */
+            
+            .bannersales {
+                margin-top: 10px;
+                width: 1270px;
+            }
+            /* ------------------------------------------------------------------ */
+            /* Đây là phần show các sản phẩm khuyến mãi */
+            
+            .xemthem {
+                margin-left: 47%;
+                color: white;
+                background: black;
+                padding: 10px 12px 10px 12px;
+                border: 1px solid black;
+            }
+            
+            .xemthem a {
+                color: white;
+            }
+            
+            .sdproduct {
+                padding-top: 20px;
+            }
+            
+            #slider-text {
+                padding-top: 40px;
+                display: block;
+            }
+            
+            #slider-text .col-md-6 {
+                overflow: hidden;
+            }
+            
+            #slider-text h2 {
+                font-family: 'Josefin Sans', sans-serif;
+                font-weight: 380;
+                font-size: 30px;
+                letter-spacing: 3px;
+                margin: 30px auto;
+                padding-left: 40px;
+            }
+            
+            #slider-text h2::after {
+                border-top: 2px solid #c7c7c7;
+                content: "";
+                position: absolute;
+                bottom: 35px;
+                width: 100%;
+            }
+            
+            #itemslider h4 {
+                font-family: 'Josefin Sans', sans-serif;
+                font-weight: 400;
+                font-size: 12px;
+                margin: 10px auto 3px;
+            }
+            
+            #itemslider h5 {
+                font-family: 'Josefin Sans', sans-serif;
+                font-weight: bold;
+                font-size: 12px;
+                margin: 3px auto 2px;
+            }
+            
+            #itemslider h6 {
+                font-family: 'Josefin Sans', sans-serif;
+                font-weight: 300;
+                ;
+                font-size: 10px;
+                margin: 2px auto 5px;
+            }
+            
+            .badge {
+                background: black;
+                position: absolute;
+                height: 40px;
+                width: 60px;
+                line-height: 31px;
+                font-family: 'Josefin Sans', sans-serif;
+                font-weight: 300;
+                font-size: 14px;
+                box-shadow: 0 0 0 1px black;
+                top: 6px;
+                right: 11%;
+                background-color: black !important;
+                padding: 13px 13px !important;
+                border-radius: 0px !important;
+            }
+            
+            #slider-control img {
+                padding-top: 60%;
+                margin: 0 auto;
+            }
+            
+            @media screen and (max-width: 992px) {
+                #slider-control img {
+                    padding-top: 70px;
+                    margin: 0 auto;
+                }
+            }
+            
+            .carousel-showmanymoveone .carousel-control {
+                width: 4%;
+                background-image: none;
+            }
+            
+            .carousel-showmanymoveone .carousel-control.left {
+                margin-left: 5px;
+            }
+            
+            .carousel-showmanymoveone .carousel-control.right {
+                margin-right: 5px;
+            }
+            
+            .carousel-showmanymoveone .cloneditem-1,
+            .carousel-showmanymoveone .cloneditem-2,
+            .carousel-showmanymoveone .cloneditem-3,
+            .carousel-showmanymoveone .cloneditem-4,
+            .carousel-showmanymoveone .cloneditem-5 {
+                display: none;
+            }
+            
+            @media all and (min-width: 768px) {
+                .carousel-showmanymoveone .carousel-inner>.active.left,
+                .carousel-showmanymoveone .carousel-inner>.prev {
+                    left: -50%;
+                }
+                .carousel-showmanymoveone .carousel-inner>.active.right,
+                .carousel-showmanymoveone .carousel-inner>.next {
+                    left: 50%;
+                }
+                .carousel-showmanymoveone .carousel-inner>.left,
+                .carousel-showmanymoveone .carousel-inner>.prev.right,
+                .carousel-showmanymoveone .carousel-inner>.active {
+                    left: 0;
+                }
+                .carousel-showmanymoveone .carousel-inner .cloneditem-1 {
+                    display: block;
+                }
+            }
+            
+            @media all and (min-width: 768px) and (transform-3d),
+            all and (min-width: 768px) and (-webkit-transform-3d) {
+                .carousel-showmanymoveone .carousel-inner>.item.active.right,
+                .carousel-showmanymoveone .carousel-inner>.item.next {
+                    -webkit-transform: translate3d(50%, 0, 0);
+                    transform: translate3d(50%, 0, 0);
+                    left: 0;
+                }
+                .carousel-showmanymoveone .carousel-inner>.item.active.left,
+                .carousel-showmanymoveone .carousel-inner>.item.prev {
+                    -webkit-transform: translate3d(-50%, 0, 0);
+                    transform: translate3d(-50%, 0, 0);
+                    left: 0;
+                }
+                .carousel-showmanymoveone .carousel-inner>.item.left,
+                .carousel-showmanymoveone .carousel-inner>.item.prev.right,
+                .carousel-showmanymoveone .carousel-inner>.item.active {
+                    -webkit-transform: translate3d(0, 0, 0);
+                    transform: translate3d(0, 0, 0);
+                    left: 0;
+                }
+            }
+            
+            @media all and (min-width: 992px) {
+                .carousel-showmanymoveone .carousel-inner>.active.left,
+                .carousel-showmanymoveone .carousel-inner>.prev {
+                    left: -16.666%;
+                }
+                .carousel-showmanymoveone .carousel-inner>.active.right,
+                .carousel-showmanymoveone .carousel-inner>.next {
+                    left: 16.666%;
+                }
+                .carousel-showmanymoveone .carousel-inner>.left,
+                .carousel-showmanymoveone .carousel-inner>.prev.right,
+                .carousel-showmanymoveone .carousel-inner>.active {
+                    left: 0;
+                }
+                .carousel-showmanymoveone .carousel-inner .cloneditem-2,
+                .carousel-showmanymoveone .carousel-inner .cloneditem-3,
+                .carousel-showmanymoveone .carousel-inner .cloneditem-4,
+                .carousel-showmanymoveone .carousel-inner .cloneditem-5,
+                .carousel-showmanymoveone .carousel-inner .cloneditem-6 {
+                    display: block;
+                }
+            }
+            
+            @media all and (min-width: 992px) and (transform-3d),
+            all and (min-width: 992px) and (-webkit-transform-3d) {
+                .carousel-showmanymoveone .carousel-inner>.item.active.right,
+                .carousel-showmanymoveone .carousel-inner>.item.next {
+                    -webkit-transform: translate3d(16.666%, 0, 0);
+                    transform: translate3d(16.666%, 0, 0);
+                    left: 0;
+                }
+                .carousel-showmanymoveone .carousel-inner>.item.active.left,
+                .carousel-showmanymoveone .carousel-inner>.item.prev {
+                    -webkit-transform: translate3d(-16.666%, 0, 0);
+                    transform: translate3d(-16.666%, 0, 0);
+                    left: 0;
+                }
+                .carousel-showmanymoveone .carousel-inner>.item.left,
+                .carousel-showmanymoveone .carousel-inner>.item.prev.right,
+                .carousel-showmanymoveone .carousel-inner>.item.active {
+                    -webkit-transform: translate3d(0, 0, 0);
+                    transform: translate3d(0, 0, 0);
+                    left: 0;
+                }
+            }
+            
+            .textct {
+                text-decoration-line: line-through;
+                color: black;
+            }
+            /* ------------------------------------------------------------------ */
+            /* Đây là phần chất lượng thương hiệu-------------------------------- */
+            
+            @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Saira:wght@300&display=swap');
+            div#nz-div {
+                border-bottom: 2px solid black;
+                margin-bottom: 20px;
+                display: block;
+                padding-top: 10px;
+            }
+            
+            #nz-div h3.tde {
+                margin: 0;
+                font-size: 16px;
+                line-height: 20px;
+                display: inline-block;
+                text-transform: uppercase;
+            }
+            
+            #nz-div h3.tde :after {
+                content: "";
+                width: 0;
+                height: 0;
+                border-top: 40px solid transparent;
+                border-left: 20px solid black;
+                border-bottom: 0px solid transparent;
+                border-right: 0 solid transparent;
+                position: absolute;
+                top: 0px;
+                right: -20px;
+            }
+            
+            #nz-div h3.tde span {
+                background: black;
+                padding: 10px 20px 8px 20px;
+                color: white;
+                position: relative;
+                display: inline-block;
+                margin: 0;
+            }
+            
+            #counter {
+                background-color: black;
+                color: rgb(255, 255, 255);
+                display: block;
+                overflow: hidden;
+                text-align: center;
+                padding: 100px 0;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                font-family: 'Oswald', sans-serif;
+                ;
+            }
+            
+            #counter .count {
+                padding: 50px;
+                color: black;
+                text-align: center;
+                background: rgb(183, 248, 219);
+                background: linear-gradient(0deg, rgba(183, 248, 219, 1) 29%, rgba(80, 167, 194, 1) 100%);
+            }
+            
+            .count h4 {
+                font-size: 16px;
+                margin-top: 0;
+            }
+            
+            #counter .count .fa {
+                font-size: 43px;
+                display: block;
+                color: #fff;
+            }
+            
+            #counter .number {
+                font-size: 30px;
+                font-weight: 700;
+                margin: 0;
+            }
+            /* ------------------------------------------------------------- */
+            /* --------------------------phần giới thiệu có hình bà chị kế trọ----------------- */
+            
+            .girl {
+                width: 400px;
+                margin-left: 30px;
+            }
+            
+            .noidung h2 {
+                text-align: center;
+                font-family: 'Satisfy', cursive;
+                font-size: 35px;
+            }
+            
+            .noidung h4 {
+                font-family: 'Lexend Zetta', sans-serif;
+                text-align: center;
+                font-size: 15px;
+            }
+            
+            .noidung p {
+                font-family: 'Oswald', sans-serif;
+                font-size: 19px;
+                padding-right: 30px;
+                text-align: justify;
+            }
+            
+            .bt1 {
+                background: black;
+                color: white;
+                font-size: 20px;
+                font-family: 'Oswald', sans-serif;
+                padding: 5px;
+                margin-left: 270px;
+                margin-top: 15px;
+            }
+            /* --------------------------------------------------------- */
+            /* Danh mục thương hiệu------------------------------------ */
+            
+            div#nz-div {
+                border-bottom: 2px solid black;
+                margin-bottom: 20px;
+                display: block;
+                padding-top: 10px;
+            }
+            
+            #nz-div h3.tde {
+                margin: 0;
+                font-size: 16px;
+                line-height: 20px;
+                display: inline-block;
+                text-transform: uppercase;
+            }
+            
+            #nz-div h3.tde :after {
+                content: "";
+                width: 0;
+                height: 0;
+                border-top: 40px solid transparent;
+                border-left: 20px solid black;
+                border-bottom: 0px solid transparent;
+                border-right: 0 solid transparent;
+                position: absolute;
+                top: 0px;
+                right: -20px;
+            }
+            
+            #nz-div h3.tde span {
+                background: black;
+                padding: 10px 20px 8px 20px;
+                color: white;
+                position: relative;
+                display: inline-block;
+                margin: 0;
+            }
+            
+            @import url('https://fonts.googleapis.com/css?family=Poppins|Ubuntu&display=swap');
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0
+            }
+            
+            body {
+                background: #eee;
+                font-family: 'Ubuntu', sans-serif
+            }
+            
+            #thieu {
+                text-align: center;
+                font-family: 'Oswald', sans-serif;
+            }
+            
+            .box {
+                position: relative;
+                width: 100%;
+                padding-right: 15px;
+                padding-left: 15px
+            }
+            
+            .our-services {
+                margin-top: 75px;
+                padding-bottom: 30px;
+                padding: 0 60px;
+                min-height: 198px;
+                text-align: center;
+                border-radius: 10px;
+                background-color: #fff;
+                transition: all .4s ease-in-out;
+                box-shadow: 0 0 25px 0 rgba(20, 27, 202, .17)
+            }
+            
+            .our-services .icon {
+                margin-bottom: -40px;
+                transform: translateY(-50%);
+                text-align: center;
+            }
+            
+            .our-services:hover h4,
+            .our-services:hover p {
+                color: #fff
+            }
+            
+            .speedup:hover {
+                box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+                cursor: pointer;
+                background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%)
+            }
+            
+            .settings:hover {
+                box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+                cursor: pointer;
+                background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%)
+            }
+            
+            .privacy:hover {
+                box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+                cursor: pointer;
+                background-image: linear-gradient(-45deg, #3615e7 0%, #44a2f6 100%)
+            }
+            
+            .backups:hover {
+                box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+                cursor: pointer;
+                background-image: linear-gradient(-45deg, #fc6a0e 0%, #fdb642 100%)
+            }
+            
+            .ssl:hover {
+                box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+                cursor: pointer;
+                background-image: linear-gradient(-45deg, #8d40fb 0%, #5a57fb 100%)
+            }
+            
+            .database:hover {
+                box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+                cursor: pointer;
+                background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%)
+            }
+            
+            #tendanhmuc {
+                font-family: 'Oswald', sans-serif;
+            }
+            /*  ----------------------------------------------*/
+            /* Đây  là blog----------------------------------- */
+            
+            div#nz-div {
+                border-bottom: 2px solid black;
+                margin-bottom: 20px;
+                display: block;
+                padding-top: 10px;
+            }
+            
+            #nz-div h3.tde {
+                margin: 0;
+                font-size: 16px;
+                line-height: 20px;
+                display: inline-block;
+                text-transform: uppercase;
+            }
+            
+            #nz-div h3.tde :after {
+                content: "";
+                width: 0;
+                height: 0;
+                border-top: 40px solid transparent;
+                border-left: 20px solid black;
+                border-bottom: 0px solid transparent;
+                border-right: 0 solid transparent;
+                position: absolute;
+                top: 0px;
+                right: -20px;
+            }
+            
+            #nz-div h3.tde span {
+                background: black;
+                padding: 10px 20px 8px 20px;
+                color: white;
+                position: relative;
+                display: inline-block;
+                margin: 0;
+            }
+            
+            .blogs {
+                font-family: 'Oswald', sans-serif;
+                font: 20px;
+            }
+            
+            #tde {
+                text-align: center;
+                font-family: 'Oswald', sans-serif;
+            }
+            
+            #tde span {
+                color: orange;
+            }
+            
+            .card-title {
+                font-weight: bold;
+                font-size: 20px;
+                color: orange;
+            }

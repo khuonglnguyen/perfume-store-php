@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Saira:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&family=Saira:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Saira:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Srisakdi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Srisakdi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Teko:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Teko:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Farsan&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    ;
+}
+
+body {
+    font-family: montserrat;
+    text-decoration: none !important;
+}
+
+nav {
+    background: white;
+    height: 80px;
+    width: 100%;
+}
+
+.contacts {
+    height: 20px;
+    position: absolute;
+    z-index: 222222;
+}
+
+.contact {
+    height: 30px;
+    padding-bottom: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
+.contact ul li {
+    float: right;
+    padding-right: 10px;
+}
+
+.ct {
+    float: right;
+}
+
+.contact ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 3px;
+}
+
+.contact ul li span {
+    color: orange;
+}
+
+.contact ul li :hover {
+    background: black;
+    color: white;
+    transition: .8s;
+}
+
+.ct {
+    color: black;
+    padding-right: 10px;
+}
+
+.ct:hover {
+    color: orange;
+}
+
+.logo img {
+    padding-top: -100px;
+    position: absolute;
+    z-index: 9999999;
+    width: 150px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav ul li a:hover {
+    background: orange;
+    transition: .6s;
+    color: white;
+    transform: scale(1.2);
+    text-decoration: none;
+}
+
+.checkbtn {
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width: 952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+        width: 280px;
+        height: 55px;
+    }
+    nav ul li a {
+        font-size: 16px;
+        color: white;
+    }
+    ul {
+        z-index: 99;
+    }
+}
+
+@media (max-width:858px) {
+    .checkbtn {
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: orange;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    nav ul li a:hover,
+    a.avtive {
+        background: white;
+        color: black;
+    }
+    #check:checked~ul {
+        left: 0;
+    }
+}
+
+nav ul ul {
+    position: absolute;
+    top: 80px;
+    opacity: 0;
+    visibility: hidden;
+    background: orange;
+    z-index: 99999999;
+}
+
+nav ul li:hover>ul {
+    opacity: 1;
+    visibility: visible;
+    color: black;
+    transition: .6s;
+}
+
+nav ul ul li {
+    position: relative;
+    margin: 0px;
+    width: 190px;
+    float: none;
+    display: list-item;
+    border-bottom: 1px solid white;
+}
+
+nav ul ul li a {
+    color: white;
+}
+
+nav ul ul li a:hover {
+    color: black
+}
+
+.tool {
+    float: right;
+    display: flex;
+    align-items: center;
+    min-height: 90px;
+    padding-bottom: 10px;
+    margin-top: 36px;
+    background: white;
+}
+
+.tool #person {
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 46px;
+}
+
+.tool #cart {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 46px;
+}
+
+.tool #search {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 46px;
+}
+
+.tool #cart:hover {
+    color: black;
+    transform: scale(1.5);
+    border-radius: 50%;
+    transition: .8s;
+    background: white;
+}
+
+.tool #person:hover {
+    color: black;
+    transform: scale(1.5);
+    border-radius: 50%;
+    transition: .8s;
+}
+
+.tool #search:hover {
+    color: black;
+    border-radius: 50%;
+}
+
+.o {
+    height: 80px;
+}
+
+.text {
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    font-family: 'Satisfy', cursive;
+    font-size: 90px;
+    text-shadow: 2px 2px 10px black;
+}
+
+.gt1 {
+    height: 500px;
+}
+
+.gt2 h2 {
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
+    color: orange;
+}
+
+.gt2 h4 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.gt2 p {
+    font-size: 20px;
+    font-family: 'Farsan', cursive;
+}
+
+.hinh {
+    border-radius: 15px;
+}
+
+.ilumia {
+    width: 80%;
+    background: white;
+    height: 230px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin: -2% auto 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+#muc1 {
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.ilus {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ilu2 {
+    width: 750px;
+    font-family: 'Oswald', sans-serif;
+}
+
+. .ilu2 h1 {
+    color: orange;
+}
+
+.gt3 {
+    padding-left: 80px;
+}
+
+.gt3 p {
+    padding-top: 35px;
+    font-size: 20px;
+    font-family: 'Farsan', cursive;
+}
+
+.view {
+    background: orange;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid white;
+    margin-left: 210px;
+}
+
+.view a {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+
+.view a:hover {
+    color: black;
+}
+
+.view:hover {
+    background: rgb(255, 94, 0);
+}
+
+footer {
+    font-family: 'Oswald', sans-serif;
+}
+
+.footer-top {
+    padding: 60px 0;
+    background: orange;
+    text-align: left;
+    color: #fff;
+}
+
+.footer-top h3 {
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.footer-about img.logo-footer {
+    max-width: 74px;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+.footer-about p a {
+    color: white;
+    font-size: 20px;
+    border-bottom: 1px dashed #666;
+}
+
+.footer-about p a:hover,
+.footer-about p a:focus {
+    color: #fff;
+    border-color: #aaa;
+}
+
+.footer-contact p {
+    word-wrap: break-word;
+}
+
+.footer-contact i {
+    padding-right: 10px;
+    font-size: 18px;
+    color: #666;
+}
+
+.ic {
+    color: black;
+    padding-left: 25px;
+}
+
+.footer-contact p a {
+    color: black;
+}
+
+.footer-contact p a:hover,
+.footer-contact p a:focus {
+    color: #fff;
+    border-color: #aaa;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 8px;
+    color: #777;
+    border: 0;
+}
+
+.footer-social a:hover,
+.footer-social a:focus {
+    color: #aaa;
+    border: 0;
+}
+
+.footer-social i {
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+.footer-bottom {
+    padding: 15px 0;
+    background: #444;
+    text-align: left;
+    color: #aaa;
+}
+
+.footer-copyright p {
+    margin: 0;
+    padding: 0.5rem 0;
+}
+
+.footer-copyright a {
+    color: #fff;
+    border: 0;
+}
+
+.footer-copyright a:hover,
+.footer-copyright a:focus {
+    color: #aaa;
+    border: 0;
+}
+
+
+/* footer navbar */
+
+.navbar {
+    padding: 0;
+    background: #444;
+    backface-visibility: hidden;
+}
+
+.navbar-dark .navbar-nav {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    border: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #aaa;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: #aaa;
+    outline: 0;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#search {
+    position: relative;
+    display: inline-block;
+    color: white;
+    float: right;
+}
+
+.search-bar {
+    position: absolute;
+    display: none;
+    right: 0;
+    top: 45px;
+    z-index: 99999999;
+}
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    padding: 12px 14px;
+    transition: width 0.4s ease-in-out;
+}
+
+#search:hover .search-bar {
+    display: block;
+}
+
+form input[type="text"]:focus {
+    width: 300px;
+    background-color: white;
+}
